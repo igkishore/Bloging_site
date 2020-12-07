@@ -1,6 +1,15 @@
-# Bloging_site: A project of bloging site
+# [Bloging Site]()
 
-## Author: [gowtham_kishore_indukuri](http://igkishore.herokuapp.com/)
+## About the Project
+- Database enabled using MongoDB
+- Backend Powered with Nodejs and Express
+- Ejs as the view engine 
+- Bootstrap enabled
+
+## Motivation For the Project
+
+ ** This project help a person to learn and impliment the frontend and backend parts of a webapplication in a easy way . This project demonestrated the `CRUD` Applications easily.**
+
 
 
  ## Comments
