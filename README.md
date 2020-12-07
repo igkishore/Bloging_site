@@ -6,7 +6,7 @@
 - Ejs as the view engine 
 - Bootstrap enabled
 
-## Motivation For the Project
+## Motivation For the Project 💪
 
 - This project helps a person to learn and implement the frontend and backend parts of a web application in an easy way. 
 - This project demonstrated the `CRUD` Applications which are essential for a full-stack website application in an easy way.
