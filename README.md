@@ -8,9 +8,9 @@
 
 ## Motivation For the Project
 
-- This project help a person to learn and impliment the frontend and backend parts of a webapplication in a easy way . 
-- This project demonestrated the `CRUD` Applications which are essential for a full stack website application in a easy way.
-- To create a local bloging sites for the student clubs to share their work locally 
+- This project helps a person to learn and implement the frontend and backend parts of a web application in an easy way. 
+- This project demonstrated the `CRUD` Applications which are essential for a full-stack website application in an easy way.
+- To create local blogging sites for the student clubs to share their work locally 
 -  To implement    
 
 ## Tech Slack
@@ -25,11 +25,11 @@
 
 ## About the Repo's File Organization
 
-This Files are orgaized in Model-View-Controller (MVC) .
+These Files are organized in Model-View-Controller (MVC) .
 
-- Routes folder contains the routes details and Public folder contains the images and styles.css for styling of the web page.
+- Routes folder contains the routes details and Public folder contains the images and styles.css for the styling of the web page.
 
-- The Model component corresponds to all the data-related logic that the user works with. This can represent either the data that is being transferred between the View and Controller components or any other business logic-related data. For example, a Customer object will retrieve the customer information from the database, manipulate it and update it data back to the database or use it to render data.
+- The Model component corresponds to all the data-related logic that the user works with. This can represent either the data that is being transferred between the View and Controller components or any other business logic-related data. For example, a Customer object will retrieve the customer information from the database, manipulate it and update its data back to the database or use it to render data.
 
 - The View component is used for all the UI logic of the application. For example, the Customer view will include all the UI components such as text boxes, dropdowns, etc. that the final user interacts with.
 
@@ -39,7 +39,7 @@ This Files are orgaized in Model-View-Controller (MVC) .
 
 
 
- ## Comments
- - (Bloging Site for the Web Community)
- - (Local Web Blog's For Local Communities)
- - (Suggestions Are welcome)
+ ## Future Plans 
+ - Planning to include authentication.
+ - Personalised Channels for every contributor.
+ - UI development for making more attractive
