@@ -24,7 +24,9 @@
 - [ejs](https://ejs.co/)
 
 ## About the Repo's File Organization
-__This Files are orgaized in Model-View-Controller (MVC) .The Model Folder contains__
+**This Files are orgaized in Model-View-Controller (MVC) .**
+ 
+- The Model component corresponds to all the data-related logic that the user works with. This can represent either the data that is being transferred between the View and Controller components or any other business logic-related data. For example, a Customer object will retrieve the customer information from the database, manipulate it and update it data back to the database or use it to render data.
 
  ## Comments
  - (Bloging Site for the Web Community)
