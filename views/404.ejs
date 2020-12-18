@@ -1,13 +1,11 @@
-<html lang="en">
-<%- include("./partials/head.ejs") %>
+<html lang="en"> 
 
+<%- include('./partials/head.ejs')%>
 <body>
-  <%- include("./partials/nav.ejs") %>
-
-  <div class="not-found content">
-    OOPS, page not found :)
-  </div>
-
-  <%- include("./partials/footer.ejs") %>
+    <%-include('./partials/nav.ejs')%>
+    <div class="not-found content" style="text-align: center; text-transform: uppercase; font-size: xx-large; font-weight: 800;">
+        OOPS, page not found
+    </div>
 </body>
+<%- include('./partials/footer.ejs')%>
 </html>

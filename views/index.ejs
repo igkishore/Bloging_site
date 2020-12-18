@@ -5,17 +5,19 @@
   <%- include("./partials/nav.ejs") %>
 
   <div class="blogs content">
-    <h2>All Blogs</h2>
+    <h2 style="text-align: center; font-weight: 800; font-size: xx-large; color: crimson; text-transform: uppercase;">All Blogs</h2>
 
     <% if (blogs.length > 0) { %>
       <% blogs.forEach(blog => { %>
         <a class="single" href="/blogs/<%= blog._id %>">
-          <h3 class="title"><%= blog.title %></h3>
+
+          <h3 class="title"><%= blog.title %> <span style=" text-align: right; font-size: small;">- <%= blog.bgname%></span></h3>
+          
           <p class="snippet"><%= blog.snippet %></p>
         </a>
       <% }) %>
     <% } else { %>
-      <p>There are no blogs to display...</p>
+      <p style="text-align: center;">There are no blogs to display...</p>
     <% } %>
     
   </div>

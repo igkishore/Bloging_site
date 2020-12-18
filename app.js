@@ -5,12 +5,12 @@ const blogRoutes = require('./routes/blogRoutes');
 
 // express app
 const app = express();
-
+var prt = (process.env.PORT || 3000);
 // connect to mongodb & listen for requests
-const dbURI = "mongodb+srv://gowtham:test1234@main.l0g6f.mongodb.net/blogingsite?retryWrites=true&w=majority";
+const dbURI = "mongodb+srv://gowtham:test1234@main.l0g6f.mongodb.net/igkblog?retryWrites=true&w=majority";
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(result => app.listen(3000))
+  .then(result => app.listen(prt))
   .catch(err => console.log(err));
 
 // register view engine

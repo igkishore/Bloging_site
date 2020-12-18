@@ -10,6 +10,10 @@ const blogSchema = new Schema({
     type: String,
     required: true,
   },
+  bgname: {
+    type: String,
+    required: true,
+  },
   body: {
     type: String,
     required: true
