@@ -35,11 +35,12 @@
       font-size: 3em;
     }
     nav p, nav a{
-      color: #777;
-      font-weight: 300;
+      text-transform: uppercase;
+      color: crimson;
+      font-weight: 800;
     }
     footer{
-      color: #777;
+      color: white;
       text-align: center;
       margin: 80px auto 20px;
     }
@@ -78,7 +79,7 @@
     }
     .delete:hover{
       cursor: pointer;
-      box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+      box-shadow: 1px 2px 3px rgba(255, 0, 0, 0.788);
     }
 
     /* create styles */

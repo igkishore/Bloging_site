@@ -18,8 +18,10 @@
 
   <script>
     const trashcan = document.querySelector('a.delete');
+
     trashcan.addEventListener('click', (e) => {
       const endpoint = `/blogs/${trashcan.dataset.doc}`;
+
       fetch(endpoint, {
         method: 'DELETE',
       })
